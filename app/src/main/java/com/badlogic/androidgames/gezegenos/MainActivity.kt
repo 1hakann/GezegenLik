@@ -31,7 +31,8 @@ class MainActivity : AppCompatActivity() {
             var mercuryPound = userPound * Mercury
             var mercuryKg = poundToKilo(mercuryPound)
 
-            tvSonuc.text = mercuryKg.toString()
+            // 6- formatter metodunu ekleyelim
+            tvSonuc.text = mercuryKg.formatter(2).toString()
         }
     }
 
@@ -43,4 +44,7 @@ class MainActivity : AppCompatActivity() {
     fun poundToKilo(pound: Double) : Double {
         return pound * PoundToKg
     }
+
+    // 5- sonuç sayının virgülden sonraki göstermek istediğimiz basamak mikt. belirliyoruz
+    fun Double.formatter(numberCount:Int) = java.lang.String.format("%.${numberCount}f", this)
 }
