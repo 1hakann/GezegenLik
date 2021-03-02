@@ -30,9 +30,10 @@
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:fontFamily="@font/autour_one"
+        android:hint="Dünyadaki Ağırlığını Gir:"
         android:inputType="textPersonName"
-        android:text="@string/pt_input"
         android:textColor="#9C27B0"
+        android:textColorHint="#9C27B0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvHeading" />
@@ -43,6 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+        android:backgroundTint="#9C27B0"
         android:fontFamily="@font/autour_one"
         android:text="@string/btn_hesapla"
         android:textSize="18sp"
@@ -50,4 +52,19 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/ptInput"
         app:layout_constraintTop_toBottomOf="@+id/ptInput" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/autour_one"
+        android:text="SONUÇ"
+        android:textColor="#9C27B0"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHesapla" />
 </androidx.constraintlayout.widget.ConstraintLayout>
