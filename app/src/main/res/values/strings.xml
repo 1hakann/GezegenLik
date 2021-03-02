@@ -3,4 +3,6 @@
     <string name="et_baslik">Hangi Gezegende Kaç Kİlosun?</string>
     <string name="pt_input">Dünyadaki Ağırlığını Gir:</string>
     <string name="btn_hesapla">Hesapla</string>
+    <string name="input_hint">Dünyadaki Ağırlığını Gir:</string>
+    <string name="btn_sonuc">SONUÇ</string>
 </resources>
