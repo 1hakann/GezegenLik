@@ -5,4 +5,13 @@
     <string name="btn_hesapla">Hesapla</string>
     <string name="input_hint">Dünyadaki Ağırlığını Gir:</string>
     <string name="btn_sonuc">SONUÇ</string>
+    <string name="ven_s">Venüs</string>
+    <string name="merk_r">Merkür</string>
+    <string name="d_nya">Dünya</string>
+    <string name="mars">Mars</string>
+    <string name="sat_rn">Satürn</string>
+    <string name="uran_s">Uranüs</string>
+    <string name="pl_ton">Plüton</string>
+    <string name="j_piter">Jüpiter</string>
+    <string name="nept_n">Neptün</string>
 </resources>

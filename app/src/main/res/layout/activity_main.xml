@@ -6,6 +6,92 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <CheckBox
+        android:id="@+id/cBuranus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="@font/autour_one"
+        android:text="@string/uran_s"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/cBneptun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBmars" />
+
+    <CheckBox
+        android:id="@+id/cBpluto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="@font/autour_one"
+        android:text="@string/pl_ton"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toEndOf="@+id/cBneptun"
+        app:layout_constraintTop_toBottomOf="@+id/cBsaturn" />
+
+    <CheckBox
+        android:id="@+id/cBjupiter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="@font/autour_one"
+        android:text="@string/j_piter"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/cBsaturn"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toEndOf="@+id/cBmercury"
+        app:layout_constraintTop_toBottomOf="@+id/cBvenus2" />
+
+    <CheckBox
+        android:id="@+id/cBmars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="@font/autour_one"
+        android:text="@string/mars"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/cBneptun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBmercury" />
+
+    <CheckBox
+        android:id="@+id/cBearth2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="@font/autour_one"
+        android:text="@string/d_nya"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cBneptun"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeading" />
+
+    <CheckBox
+        android:id="@+id/cBvenus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="@font/autour_one"
+        android:text="@string/ven_s"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/cBsaturn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cBmercury"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeading" />
+
     <TextView
         android:id="@+id/tvHeading"
         android:layout_width="wrap_content"
@@ -26,8 +112,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="252dp"
         android:layout_marginEnd="8dp"
+        android:autofillHints=""
         android:ems="10"
         android:fontFamily="@font/autour_one"
         android:hint="@string/input_hint"
@@ -36,21 +123,20 @@
         android:textColorHint="#9C27B0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvHeading"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/tvHeading" />
 
     <Button
         android:id="@+id/btnHesapla"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="#9C27B0"
         android:fontFamily="@font/autour_one"
         android:text="@string/btn_hesapla"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/ptInput"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="@+id/ptInput"
         app:layout_constraintTop_toBottomOf="@+id/ptInput" />
 
@@ -68,4 +154,50 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnHesapla" />
+
+    <CheckBox
+        android:id="@+id/cBmercury"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="@font/autour_one"
+        android:text="@string/merk_r"
+        android:textColorHighlight="#9C27B0"
+        android:textColorLink="#9C27B0"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/cBneptun"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeading" />
+
+    <CheckBox
+        android:id="@+id/cBneptun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="@font/autour_one"
+        android:text="@string/nept_n"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/cBsaturn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cBmercury"
+        app:layout_constraintTop_toBottomOf="@+id/cBjupiter2" />
+
+    <CheckBox
+        android:id="@+id/cBsaturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#9C27B0"
+        android:fontFamily="@font/autour_one"
+        android:text="@string/sat_rn"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cBneptun"
+        app:layout_constraintTop_toBottomOf="@+id/cBearth2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
