@@ -4,7 +4,9 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
 import android.widget.CheckBox
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
+import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -26,6 +28,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        Glide.with(this).load(R.drawable.solar_system).into(imageView2)
 
         //- dinleyicileri ekleyelim
         cBmercury.setOnClickListener(this)
@@ -69,110 +73,110 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             when(v.id) {
                 R.id.cBmercury -> if(isChecked) {
                     hesaplaPound(userPound, v)
-                    cBvenus2.isChecked = false;
-                    cBmars.isChecked = false;
-                    cBearth2.isChecked = false;
-                    cBjupiter2.isChecked = false;
-                    cBsaturn.isChecked = false;
-                    cBneptun.isChecked = false;
-                    cBuranus.isChecked = false;
-                    cBpluto.isChecked = false;
+                    cBvenus2.isChecked = false
+                    cBmars.isChecked = false
+                    cBearth2.isChecked = false
+                    cBjupiter2.isChecked = false
+                    cBsaturn.isChecked = false
+                    cBneptun.isChecked = false
+                    cBuranus.isChecked = false
+                    cBpluto.isChecked = false
 
                 }
                 R.id.cBvenus2 -> if(isChecked) {
                     hesaplaPound(userPound, v)
-                    cBmercury.isChecked = false;
-                    cBmars.isChecked = false;
-                    cBearth2.isChecked = false;
-                    cBjupiter2.isChecked = false;
-                    cBsaturn.isChecked = false;
-                    cBneptun.isChecked = false;
-                    cBuranus.isChecked = false;
-                    cBpluto.isChecked = false;
+                    cBmercury.isChecked = false
+                    cBmars.isChecked = false
+                    cBearth2.isChecked = false
+                    cBjupiter2.isChecked = false
+                    cBsaturn.isChecked = false
+                    cBneptun.isChecked = false
+                    cBuranus.isChecked = false
+                    cBpluto.isChecked = false
 
                 }
                 R.id.cBearth2 -> if(isChecked) {
                     hesaplaPound(userPound, v)
-                    cBvenus2.isChecked = false;
-                    cBmars.isChecked = false;
-                    cBmercury.isChecked = false;
-                    cBjupiter2.isChecked = false;
-                    cBsaturn.isChecked = false;
-                    cBneptun.isChecked = false;
-                    cBuranus.isChecked = false;
-                    cBpluto.isChecked = false;
+                    cBvenus2.isChecked = false
+                    cBmars.isChecked = false
+                    cBmercury.isChecked = false
+                    cBjupiter2.isChecked = false
+                    cBsaturn.isChecked = false
+                    cBneptun.isChecked = false
+                    cBuranus.isChecked = false
+                    cBpluto.isChecked = false
 
                 }
                 R.id.cBmars -> if(isChecked) {
                     hesaplaPound(userPound, v)
-                    cBvenus2.isChecked = false;
-                    cBmercury.isChecked = false;
-                    cBearth2.isChecked = false;
-                    cBjupiter2.isChecked = false;
-                    cBsaturn.isChecked = false;
-                    cBneptun.isChecked = false;
-                    cBuranus.isChecked = false;
-                    cBpluto.isChecked = false;
+                    cBvenus2.isChecked = false
+                    cBmercury.isChecked = false
+                    cBearth2.isChecked = false
+                    cBjupiter2.isChecked = false
+                    cBsaturn.isChecked = false
+                    cBneptun.isChecked = false
+                    cBuranus.isChecked = false
+                    cBpluto.isChecked = false
 
                 }
                 R.id.cBjupiter2-> if(isChecked) {
                     hesaplaPound(userPound, v)
-                    cBvenus2.isChecked = false;
-                    cBmars.isChecked = false;
-                    cBearth2.isChecked = false;
-                    cBmercury.isChecked = false;
-                    cBsaturn.isChecked = false;
-                    cBneptun.isChecked = false;
-                    cBuranus.isChecked = false;
-                    cBpluto.isChecked = false;
+                    cBvenus2.isChecked = false
+                    cBmars.isChecked = false
+                    cBearth2.isChecked = false
+                    cBmercury.isChecked = false
+                    cBsaturn.isChecked = false
+                    cBneptun.isChecked = false
+                    cBuranus.isChecked = false
+                    cBpluto.isChecked = false
 
                 }
                 R.id.cBsaturn -> if(isChecked) {
                     hesaplaPound(userPound, v)
-                    cBvenus2.isChecked = false;
-                    cBmars.isChecked = false;
-                    cBearth2.isChecked = false;
-                    cBjupiter2.isChecked = false;
-                    cBmercury.isChecked = false;
-                    cBneptun.isChecked = false;
-                    cBuranus.isChecked = false;
-                    cBpluto.isChecked = false;
+                    cBvenus2.isChecked = false
+                    cBmars.isChecked = false
+                    cBearth2.isChecked = false
+                    cBjupiter2.isChecked = false
+                    cBmercury.isChecked = false
+                    cBneptun.isChecked = false
+                    cBuranus.isChecked = false
+                    cBpluto.isChecked = false
 
                 }
                 R.id.cBuranus -> if(isChecked) {
                     hesaplaPound(userPound, v)
-                    cBvenus2.isChecked = false;
-                    cBmars.isChecked = false;
-                    cBearth2.isChecked = false;
-                    cBjupiter2.isChecked = false;
-                    cBsaturn.isChecked = false;
-                    cBneptun.isChecked = false;
-                    cBmercury.isChecked = false;
-                    cBpluto.isChecked = false;
+                    cBvenus2.isChecked = false
+                    cBmars.isChecked = false
+                    cBearth2.isChecked = false
+                    cBjupiter2.isChecked = false
+                    cBsaturn.isChecked = false
+                    cBneptun.isChecked = false
+                    cBmercury.isChecked = false
+                    cBpluto.isChecked = false
 
                 }
                 R.id.cBneptun -> if(isChecked) {
                     hesaplaPound(userPound, v)
-                    cBvenus2.isChecked = false;
-                    cBmars.isChecked = false;
-                    cBearth2.isChecked = false;
-                    cBjupiter2.isChecked = false;
-                    cBsaturn.isChecked = false;
-                    cBmercury.isChecked = false;
-                    cBuranus.isChecked = false;
-                    cBpluto.isChecked = false;
+                    cBvenus2.isChecked = false
+                    cBmars.isChecked = false
+                    cBearth2.isChecked = false
+                    cBjupiter2.isChecked = false
+                    cBsaturn.isChecked = false
+                    cBmercury.isChecked = false
+                    cBuranus.isChecked = false
+                    cBpluto.isChecked = false
 
                 }
                 R.id.cBpluto -> if(isChecked) {
                     hesaplaPound(userPound, v)
-                    cBvenus2.isChecked = false;
-                    cBmars.isChecked = false;
-                    cBearth2.isChecked = false;
-                    cBjupiter2.isChecked = false;
-                    cBsaturn.isChecked = false;
-                    cBneptun.isChecked = false;
-                    cBuranus.isChecked = false;
-                    cBmercury.isChecked = false;
+                    cBvenus2.isChecked = false
+                    cBmars.isChecked = false
+                    cBearth2.isChecked = false
+                    cBjupiter2.isChecked = false
+                    cBsaturn.isChecked = false
+                    cBneptun.isChecked = false
+                    cBuranus.isChecked = false
+                    cBmercury.isChecked = false
                 }
             }
         }
