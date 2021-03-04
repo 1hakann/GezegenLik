@@ -112,7 +112,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="252dp"
+        android:layout_marginTop="220dp"
         android:layout_marginEnd="8dp"
         android:autofillHints=""
         android:ems="10"
@@ -125,27 +125,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvHeading" />
 
-    <Button
-        android:id="@+id/btnHesapla"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="8dp"
-        android:backgroundTint="#9C27B0"
-        android:fontFamily="@font/autour_one"
-        android:text="@string/btn_hesapla"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/ptInput"
-        app:layout_constraintHorizontal_bias="0.545"
-        app:layout_constraintStart_toStartOf="@+id/ptInput"
-        app:layout_constraintTop_toBottomOf="@+id/ptInput" />
-
     <TextView
         android:id="@+id/tvSonuc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/autour_one"
         android:text="@string/btn_sonuc"
@@ -153,7 +138,7 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnHesapla" />
+        app:layout_constraintTop_toBottomOf="@+id/ptInput" />
 
     <CheckBox
         android:id="@+id/cBmercury"
@@ -200,4 +185,5 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/cBneptun"
         app:layout_constraintTop_toBottomOf="@+id/cBearth2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
