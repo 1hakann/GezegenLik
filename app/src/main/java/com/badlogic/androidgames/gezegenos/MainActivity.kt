@@ -29,7 +29,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Glide.with(this).load(R.drawable.solar_system).into(imageView2)
+        val into = Glide.with(this).load(R.drawable.solar_system).into(imageView2)
+        savedInstanceState?.getString("sonuc").also { tvSonuc.text.toString() }
 
         //- dinleyicileri ekleyelim
         cBmercury.setOnClickListener(this)
@@ -46,6 +47,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         //val etSonuc = findViewById<TextView>(R.id.tvSonuc) && userKg = ptInput.text.toString()
 
         // 4- Butona işlev kazandıralım //btn kaldırıldı
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState?.putString("sonuc", tvSonuc.text.toString())
     }
 
     // 3 - Dönüştürücü func. ı50mızı yazalım
@@ -196,9 +202,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.cBneptun -> sonuc = pound * Neptune
             R.id.cBuranus -> sonuc = pound * Uranus
             R.id.cBpluto -> sonuc = pound * Pluto
-            else -> sonuc = 0.0
-        }
 
+        else -> sonuc = 0.0
+    }
         var sonucToKg = poundToKilo(sonuc)
         tvSonuc.text = sonucToKg.formatter(2)
 
