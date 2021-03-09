@@ -29,8 +29,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val into = Glide.with(this).load(R.drawable.solar_system).into(imageView2)
-        savedInstanceState?.getString("sonuc").also { tvSonuc.text.toString() }
+        Glide.with(this).load(R.drawable.solar_system).into(imageView2)
+        tvSonuc.text = savedInstanceState?.getString("sonuc")
 
         //- dinleyicileri ekleyelim
         cBmercury.setOnClickListener(this)
