@@ -11,12 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GezegenOS"
         tools:ignore="AllowBackup">
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
         </activity>
         <meta-data
             android:name="preloaded_fonts"

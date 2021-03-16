@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.badlogic.androidgames.gezegenos"
-        minSdkVersion 25
+        minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
