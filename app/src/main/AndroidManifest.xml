@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GezegenOS"
         tools:ignore="AllowBackup">
-        <activity android:name=".SplashActivity"
+        <activity
+            android:name=".SplashActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -20,9 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".OptionActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
 
-        </activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

@@ -32,7 +32,7 @@ class SplashActivity : AppCompatActivity() {
                 }
 
                 override fun onFinish() {
-                    var intent = Intent(applicationContext, MainActivity::class.java)
+                    var intent = Intent(applicationContext, OptionActivity::class.java)
                     startActivity(intent)
                 }
 
