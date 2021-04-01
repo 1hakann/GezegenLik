@@ -14,5 +14,10 @@ class OptionActivity : AppCompatActivity() {
             var intent = Intent(applicationContext, MainActivity::class.java)
             startActivity(intent)
         }
+
+        btnInfo.setOnClickListener {
+            var intent = Intent(applicationContext, GezegenlerBilgi::class.java)
+            startActivity(intent)
+        }
     }
 }
