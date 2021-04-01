@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/teksatirLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ivPlanet"
+        android:layout_width="105dp"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvPlanet"
+        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/tvPlanet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:fontFamily="@font/autour_one"
+        android:text="Gezegen Adı"
+        android:layout_margin="20dp"
+        android:textSize="@dimen/text_size"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+</LinearLayout>
