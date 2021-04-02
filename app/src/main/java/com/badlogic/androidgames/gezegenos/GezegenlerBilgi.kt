@@ -9,14 +9,17 @@ import kotlinx.android.synthetic.main.tek_satir.*
 
 class GezegenlerBilgi : AppCompatActivity() {
 
-    var Gezegenler = arrayOf("Mercury","Venus","Earth","Mars","Saturn","Jupiter","Uranus","Neptun","Pluto")
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_gezegenler_bilgi)
 
-        var gezegenAdapter = ArrayAdapter<String>(this, R.layout.tek_satir, R.id.tvPlanet , Gezegenler)
-        listView.adapter = gezegenAdapter
+        var GezAdi = resources.getStringArray(R.array.Gezegenler)
+        var GezAciklama = resources.getStringArray(R.array.Aciklamalar)
+        var GezRes = arrayOf(R.drawable.mercury, R.drawable.venus, R.drawable.earth, R.drawable.mars, R.drawable.jupiter, R.drawable.saturn,
+            R.drawable.uranus, R.drawable.neptun, R.drawable.pluto)
+
+        var myAdapter = GezegenArrayAdapter(this, R.layout.tek_satir, R.id.tvGezAdi, GezAdi, GezAciklama, GezRes)
+        listView.adapter = myAdapter
         listView.setOnItemClickListener { parent, view, position, id ->
 
             var gecici = view as TextView

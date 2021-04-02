@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Gezegenler">
+        <item>Merkür</item>
+        <item>Venüs</item>
+        <item>Dünya</item>
+        <item>Mars</item>
+        <item>Jüpiter</item>
+        <item>Saturn</item>
+        <item>Uranüs</item>
+        <item>Neptün</item>
+        <item>Plüton</item>
+    </string-array>
+    
+    <string-array name="Aciklamalar">
+        <item>En Küçük Gezegen Olmak Nasıl Bir His?</item>
+        <item>Nasıl Daha Sıcak Olabilir? </item>
+        <item>Ve Bizim Gezegenimiz</item>
+        <item>Dinmeyen Toz Fırtınaları</item>
+        <item>Göçmen Gezegen Nedir? Nasıl Olunur?</item>
+        <item>Elmas Cenneti Diyarlar</item>
+        <item>Neden Ters İstikamette Dönüyor?</item>
+        <item>Yüzeyi Olmayan Gezegen</item>
+        <item>Gezegenliği Neden Tartışıldı?</item>
+    </string-array>
+</resources>
