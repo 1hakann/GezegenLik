@@ -1,35 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/teksatirLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/ivPlanet"
-        android:layout_width="105dp"
-        android:layout_height="72dp"
-        android:layout_weight="1"
-        android:layout_marginStart="10dp"
-        android:contentDescription="TODO"
+        android:id="@+id/ivGezegen"
+        android:layout_width="101dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:background="#9C27B0"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvPlanet"
-        app:srcCompat="@android:mipmap/sym_def_app_icon" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="VectorDrawableCompat" />
 
     <TextView
-        android:id="@+id/tvPlanet"
-        android:layout_width="match_parent"
+        android:id="@+id/tvGezAdi"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="3"
         android:fontFamily="@font/autour_one"
         android:text="Gezegen Adı"
-        android:layout_margin="20dp"
-        android:textSize="@dimen/text_size"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="24dp" />
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toEndOf="@+id/ivGezegen"
+        app:layout_constraintTop_toTopOf="@+id/ivGezegen" />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/tvGezAcikl"
+        android:layout_width="275dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/autour_one"
+        android:text="İçerik Başlığı"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivGezegen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toEndOf="@+id/ivGezegen"
+        app:layout_constraintTop_toBottomOf="@+id/tvGezAdi"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
