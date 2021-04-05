@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GezegenOS"
         tools:ignore="AllowBackup">
-        <activity android:name=".GezegenlerBilgi"></activity>
+        <activity android:name=".DetayActivity"></activity>
+        <activity android:name=".GezegenlerBilgi" />
         <activity
             android:name=".SplashActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
