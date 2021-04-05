@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetayActivity">
+
+    <ImageView
+        android:id="@+id/ivDetay"
+        android:layout_width="415dp"
+        android:layout_height="149dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/tvDetayAdi"
+        android:layout_width="375dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/autour_one"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toTopOf="@+id/tvDetayAciklama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDetay" />
+
+    <TextView
+        android:id="@+id/tvDetayAciklama"
+        android:layout_width="378dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/autour_one"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetayAdi" />
+</androidx.constraintlayout.widget.ConstraintLayout>
