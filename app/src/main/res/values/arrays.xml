@@ -12,7 +12,7 @@
         <item>Plüton</item>
     </string-array>
     
-    <string-array name="Aciklamalar">
+    <string-array name="Baslik">
         <item>En Küçük Gezegen Olmak Nasıl Bir His?</item>
         <item>Nasıl Daha Sıcak Olabilir? </item>
         <item>Ve Bizim Gezegenimiz</item>
@@ -22,5 +22,141 @@
         <item>Neden Ters İstikamette Dönüyor?</item>
         <item>Yüzeyi Olmayan Gezegen</item>
         <item>Gezegenliği Neden Tartışıldı?</item>
+    </string-array>
+
+    <string-array name="GezAciklama">
+        <item>
+            Merkür 8 gezegen arasında Güneş’e en yakın olan gezegendir.
+            Saniyede 50 km’lik inanılmaz bir hızla, uzayda seyreden en hızlı gezegendir. Sahip olduğu bu hızıyla 88 günde Güneş’in etrafında 1 tur atmış olur. Böylece Güneş'in etrafındaki turunu hızlı tamamlayan Merkür'de 1 yıl 88 gündür.
+            Dünya ile kıyaslandığında, Merkür kendi yörüngesi etrafındaki dönüşünü 116 günde tamamlar. Bilinen hiç doğal uydusu olmayan gezegen adını Roma tanrısı Merkür'den alır.
+            Güneş sisteminde, Güneşe en yakın gezegen olmasına rağmen en sıcak ikinci gezegendir. Ayrıca gezegenin güneşe bakan tarafı, 427 santigrat derece sıcaklıkta iken, bakmayan tarafı ise sıfırın altında 173 santigrat derece de soğukluğa kadar düşmektedir. Bunun ana sebebi, gezegenin sıcaklığını düzenleyen bir atmosfere sahip olmamasıdır.
+            Merkür, Dünyamız üzerinden Güneş Sistemi'nde çıplak gözle görülebilen beş gezegenden biridir. Yeri gelmişken diğer dördü ise sırasıyla Venüs, Mars, Jüpiter ve Satürn’dür.
+            NASA’nın uzay aracı Messenger Merkür’e 2015 yılında inmiştir. Merkür hakkında bilinen pek çok bilgi bu uzay aracı sayesinde edinilmiştir.
+            Merkür ilk kez İtalyan bilim insanı ve düşünür Galileo Galilei tarafından 1631’de gözlemlemiştir.
+            Merkür’e uzay aracı gönderilmesi çok zordur. Çünkü gezegen Güneş'e aşırı yakındır. Uzay araçlarının bu gezegende hatta gezegene yaklaşırken dahi hayatta kalması oldukça zordur. Bu sıcaklığa dayanıklılık ise maliyetleri çok fazla artırmaktadır.
+            Marinen 10, yerçekimini kullanarak bu gezegene ulaşan ilk uzak aracı olmuştur. Bu uzay aracı 3 Kasım 1973 tarihinde Cape Canaveral, Florida’dan hareket etmiştir.
+            Son olarak Merkür üzerinde hiçbir mevsim oluşmamaktadır ve Merkür'de Dünyamızda deneyimlenen yerçekiminin %38’ine sahip bir atmosfer bulunmaktadır.
+        </item>
+        <item>
+            Güneş'e Merkür'den daha uzak olmasına rağmen Venüs, güneş sisteminin en sıcak gezegenidir.
+            Venüs’ün ortalama sıcaklığı 425 santigrat derecedir. Yani kurşunu bile eritebilecek kadar yüksek bir sıcaklığa sahiptir. Gezegen Dünya’dan çok az küçüktür.
+            Güneş’ten gelen ışığın Venüs’e ulaşması neredeyse 6 dakika sürmektedir. Güneş sistemindeki diğer gezegenlere oranla en dairesel şekle ve yörüngeye sahip gezegen Venüs'tür.
+            Venüs'te, sadece 3 derecelik sınırlı eksenel eğilim olmasından dolayı mevsimler yoktur.
+            Dünyanın uydusu Ay’dan sonra Venüs, gece gökyüzünde görebileceğiniz en parlak gezegendir.
+            Venüs adını aşk ve güzelliğin tanrısından almıştır. Bu haliyle Bir kadın figürü ile adlandırılan tek gezegendir. Venüs Roma tanrıçasıdır.
+            Güneş sisteminde yer alan gezegenler arasında günün en uzun sürdüğü gezegendir. Venüs'ün kendi ekseni üzerinde dönmesi 243 Dünya gününü alır. Dahası, Venüs'ün Güneş'in etrafında bir döngüyü tamamlaması 225 Dünya günü sürmektedir.
+            Venüs'te gece ve gündüz arasındaki sıcaklık farkı gezegenin yavaş dönüşünden dolayı çok azdır.
+            Venera 3, 1966'da gezegene inen ilk insan yapımı uzay aracıdır.
+            Önde gelen jeologlar, gezegenin mevcut yüzeyinin bir milyar yıldan daha eski olduğuna inanmaktadır.
+        </item>
+        <item>
+            Dünya katı, sıvı ve gazın mevcut olduğu güneş sistemindeki tek gezegendir.
+            Hepimiz dünya ile birlikte güneşin etrafında saatte 107.182 kilometre ortalama hızda seyahat ediyoruz.
+            Dünya her gün 100 ile 300 metrik ton kozmik toz üretmektedir.
+            Yeryüzünün yüzde 70'ten fazlasının suya sahip olmasına rağmen, suyun Dünya kütlesinin yüzde 1'inden daha azını oluşturduğunu söylemeliyiz.
+            Dünya bundan yaklaşık 4.54 milyar yıl önce oluşmuştur.
+            Dünya'nın doğal uydusu olan Ay'ın, Dünya tarafından Theia adlı Mars boyutlu bir nesnenin etkisinden sonra oluştuğu sanılmaktadır.
+            Gelecek 140 milyon yıl içinde, Dünya'daki bir günün uzunluğu 25 saat olacaktır.
+            İçerisinde çok fazla nikel ve demir bulunması nedeniyle Dünya’nın güçlü bir manyetik alanı vardır.
+            Dünya'nın iç çekirdeği 5400 ile 6000 santigrat derece arasında bir sıcaklığa sahiptir. Yani bu, güneşin sıcaklığından daha sıcak olduğu anlamına gelmektedir.
+            Dünya ayrıca Güneş Sistemindeki en yoğun gezegen olma özelliğine sahiptir. Santimetre küp başına ortalama 5.51 gramlık bir yoğunluktan oluşmaktadır.
+            Dünya, güneş sisteminin yüzeyinin altında tektonik plakaları olan tek gezegendir . Bu plakalar, Dünya'nın içindeki magmanın üstünde yüzmektedir. Bu tabaklar çarpıştığında depremler meydana gelmektedir. Bu plakaların hareketi, diğer jeolojik ve yaşam destekleyici amaçlar için de çok önemlidir.
+            Kuzey Kutbu'ndan Güney Kutbu'na kadar olan Dünya'nın çapı, Ekvatordaki çapından 43 km daha kısadır. Böylece, Dünya mükemmel bir küre değildir ve çaptaki bu fark, Dünya'nın rotasyonunun sonucudur.
+            Dünya'nın çekirdeğinin yaklaşık % 88 'i demirden meydana gelirken, kabuğunun ise neredeyse % 47'si oksijenden oluşmaktadır.
+            Dünya atmosferinde % 21 oksijen ve yüzeyinde sıvı su bulunan tek gezegendir. Ayrıca gezegenimiz GÜneş Sistemi'nde, büyüklük ve kütle bakımından beşinci büyük gezegendir.
+        </item>
+        <item>
+            Yapısında yüksek oranda demir oksit içerir, kırmızımsı görünmesini sağlayan ana etken durum budur. Kızıl gezegenin iki uydusu bulunmaktadır. İsimleri; Phobos ve Deimos’tur.
+            Marsın yüzeyinde düşük atmosferik basınç nedeniyle su bulunmamaktadır.
+            Mars’ın Güneş etrafında bir turunu tamamlaması Dünya’nın iki katı kadar zaman almaktadır.
+            Jüpiter, Mars’ın yörüngesini etkileyici bir güce sahiptir. Muazzam kütlesi sebebiyle, Mars’ın yörüngesinde bir miktar değişiklik göstermesine sebep olmaktadır.
+            Mars gezegeni insan varlığı için elverişli bir yer olarak görülmesinden dolayı 40 yılı aşkın bir süredir sıkı bir şekilde araştırılmaktadır. Gezegendeki su işaretleri, bu kırmızı gezegende insan yaşamının var olabileceği inancını güçlendiriyor.
+            Mariner 4, 1965 yılında Mars’a ulaşan ilk uzay aracıdır. Uzay gemisinin Mars’a ulaşması tam 228 gün sürmüştür.
+            Hint Uzay Araştırmaları Örgütü (ISRO) 24 Eylül 2014'te Mars'a güvenli bir şekilde aracını yerleştirmeyi başarmıştır. Hindistan bu sayede ilk denemesinde Mars'ın yörüngesine uzay aracı yerleştirebilen ilk ülke olmuştur. Görev 5 Kasım 2013'te başlamıştır. Ayrıca yeri gelmişken belirtmek gerekirse Viking 1 ve Viking 2, NASA tarafından 1975 yılında Mars’a gönderilen iki uzay aracının isimleridir.
+            Mars, Güneş'ten 142 milyon kilometre uzakta yer almaktadır.
+            Mars Dünyamıza yakın olmasına rağmen çok soğuk bir gezegendir. Mars'taki ortalama sıcaklık sıfırın altında 60 santigrat derece civarındadır.
+            2004 yılında NASA görevlileri Mars’ta su kanıtına rastlamıştır. Suyun varlığı, geçmişte ya da günümüzde Mars’ta yaşayan canlıların hayatta kalması için potansiyel bir işaret olabilir.
+            Mars ve Dünya arasındaki asgari mesafe, mükemmel dairesel yörüngeleri olmadığı için değişmeye devam ediyor. NASA, 2030’un sonunda Mars’ta, bir Dünya Bağımsız kolonisi yaratmayı planlamaktadır.
+            Mars’ta bir günün uzunluğu neredeyse Dünya ile aynıdır. Ayrıca gezegenin mevcut olan kara yüzeyinin miktarı, Dünya'da mevcut olanla neredeyse aynıdır.
+            Mars'ın uydularından biri olan Phobos'un, gezegene çarpması ya da gelecek 50 milyon yıl içinde küçük halkalar halinde kırılması bekleniyor.
+            Dünya’daki her mevsim Mars’ta da yaşanmaktadır. Ancak Kızıl Gezegendeki her mevsim dünyadakilerin iki katı kadar uzun sürmektedir.
+            Efsanevi silikon vadisi girişimcilerinden Elon Mask, Mars’a insanları göndermeyi ve gezegeni yaşanır hale getirmek istemektedir. Bunun için çalışmalarına başladı bile.
+        </item>
+        <item>
+            Jüpiter güneş sistemindeki gezegenlerin en büyüğüdür. Ayrıca, Dünya ve Venüs’ten sonra gökyüzünün üçüncü en parlak gezegenidir. Gezegen esas olarak Hidrojen, Helyum ve diğer sıvı maddelerden oluşur.
+            Jüpiter diğer çoğu gezegen gibi, katı bir gezegen değildir. Gaz halindeki maddelerin bileşiminden oluşmaktadır.
+            Uydularından dört tanesi, 1610 yılında Galileo Galilei tarafından keşfedilmiştir. Bunlar, Jüpiter'in sahip olduğu ve Galile uydusu olarak adlandırılan uygulardır. Tüm uyduların en büyüğüdür.
+            Gezegen, görev için uzaya gönderilen 8 uzay aracı tarafından incelenmiştir. 1979 ve 2007 yılları arasında NASA tarafından uzay araçları Jüpiter’e gönderilmiştir. Bu uzay araçları; Pioneer 10, Pioneer-Saturn, Voyager 1, Voyager 2, Ulysses, Galileo, Cassini ve Yeni Ufuklar.
+            Jüpiter aynı zamanda Mars gibi diğer gezegenlerin yörüngesini değiştirme yeteneğine de sahiptir. Bu esas olarak gezegenin ağırlığından kaynaklanmaktadır.
+            Jüpiter, kuyruklu yıldızları ve asteroidleri uzaklaştırarak yeryüzümüze yardım etmektedir. Aksi takdirde, bu kuyruklu yıldızlar ve asteroidler Dünya'ya çarparak büyük bir potansiyel hasara neden olabilirler.
+            Jüpiter, üzerinde herhangi bir yaşam formunu desteklemek için elverişli bir ortama sahip değildir.
+            Bilim adamları, Jüpiter'in bugün olduğundan 80 kat daha büyük bir yıldız olabileceğini düşünüyor.
+            Jüpiter, gökyüzündeki en büyük radyo emisyon kaynağıdır ve Dünya'dan 318 kat daha ağırdır.
+            Jüpiter'in kütlesi, Güneş'in kütlesinin binde biri ve diğer tüm gezegenlerin kütlesinin iki buçuk katına eşittir.
+            67 tane uyduya sahip Jüpiter'in diğer gezengenlerden ayırt edici özelliklerinden biri de Güneş Sistemi'ndeki en fazla uydu sayısına sahip olmasıdır.
+            Jüpiter, güneş sistemindeki diğer herhangi bir gezegenden daha hızlı dönmektedir. Kendi etrafında dönüşünü tamamlaması 10 saat sürmektedir. Bu, Jüpiter'in bir günün uzunluğunun, Dünya üzerindeki 24 saat ile karşılaştırıldığında sadece 10 saat olduğu anlamına gelir.
+            Jüpiter'de her mevsimin süresi yaklaşık üç yıldır.
+            Bir uzay aracı, katı bir yüzey eksikliğinden dolayı Jüpiter’e iniş yapamaz. Gezegen çoğunlukla etrafta dönen gazlardan ve sıvılardan oluşur.
+        </item>
+        <item>
+            Satürn, güzel halkaları ve görünüşü nedeniyle “Güneş Sisteminin Mücevheri” olarak bilinir.
+            Dünyaya çok uzak olmasına rağmen büyüklüğü nedeniyle çıplak gözle görülebilen en uzak gezegendir. Jüpiterden sonra en büyük ikinci gezengendir.
+            Satürn'ün bileşimi Jüpiter'inkinden çok farklı değildir. Ayrıca hidrojen ve helyum içerir; ayrıca küçük oranlarda metan gazına da sahiptir.
+            Satürn'de bir günün uzunluğu 10 saat 32 dakikadır. Güneşe olan mesafesi nedeniyle, Satürn’ün Güneş etrafında bir tur atması 29.4 dünya yılı kadar sürmektedir.
+            Satürn dünya ile karşılaştırıldığında, günler daha kısa yıllar ise daha uzun sürmektedir.
+            Bu gezegene sadece 4 adet uzay aracı gönderilmiştir. Bunun sebebi ise dünyaya olan uzaklığıdır. Katı yüzey eksikliği sebebiyle yüzeyine iniş gerçekleşememiştir.
+            Güneş sisteminin en parlak gezegenidir. Bunun sebebi ise, üzerine düşen ışığı hemen yansıtmasını sağlayan buzdan oluşmasıdır.
+            Satürn'ün manyetik alanı, Dünya'nın manyetik alanından 578 kat daha güçlüdür.
+            Asurlular tarafından yazılmış en eski yazılı kayıtlarda Satürn’den bahsedilmiştir. Onlar Satürn’e Ninib Yıldızı adını vermişlerdir.
+            Satürn ise ismini Farsça koyulmuş bir Roma tanrısının adından almıştır.
+            Satürn'ün uydularından biri olan Titan, şimidye kadar belirlenmiş atmosfere sahip olan tek uydudur.
+            Satürn'ün ortalama sıcaklığı -178 santigrat derece olarak gözlemlenmiştir.
+            Satürn üzerindeki atmosferik basınç, Dünya'daki değerin 100 katı kadardır ve çekirdeği en az Güneş kadar sıcaktır.
+            Dünyanın ortalama hızı saniyede 9.64 km iken, Satürn’ün ise saniyede 30 km’dir.
+            Satürn güneşten yaklaşık 1.4 milyar kilometre kadar uzaktadır. Gezegenin rengi kahverengidir.
+        </item>
+        <item>
+            Uranüs diğer çoğu gezegen gibi adını bir Roma tanrısından değilde Yunan tanrısından almıştır. Uranüs resmi olarak Sir William Herschel tarafından 1781'de keşfedilmiştir.
+            Gezegenin kendi ekseni etrafında dönüşünü tamamlaması 17 saat 14 dakika sürmektedir. Güneş'in etrafındaki dönüşünü, 84 Dünya yılında tamamlamaktadır.
+            Sıfırın altında 224 santigrat derece minimum atmosferik sıcaklık ile Uranüs, Güneş Sistemi'ndeki en soğuk gezegendir.
+            Uranüs'ün büyüklüğü, 63 tane Dünya büyüklüğündedir. Ayrıca teleskopla keşfedilen ve modern çağda keşfedilen ilk gezegen olma özelliğine sahiptir.
+            1789 yılında keşfedilen Uranyum kimyasal elementi adını, o zamanlar yeni keşfedilen bir gezegen olan Uranüs'ten almıştır.
+            Uranüs'te 42 yıl yaz 42 yıl kış mevsimleri görülmektedir. Belirtmek gerekirse gezegen şimdiye dek sadece 1 kez ziyaret edilmiştir.
+            Uranüs, gittikçe daha da yoğunlaşan sisli bir atmosfere sahiptir. Bu yüzden buraya insanlı bir uzay aracı göndermek oldukça zor ve tehlikelidir.
+            Uranüs 27 tane uyduya sahiptir. Bu 27 uydudan en sonuncusu 2003 yılında keşfedilmiştir.
+            Gezegen, Dünya'nın kütlesinin 14.5 katıdır. Güneş ışıklarının Dünya'mıza 9 dakikada ulaşırken Uranüs’e ulaşması yaklaşık 2 saat 40 dakika sürmektedir.
+        </item>
+        <item>
+            Neptün buzul gezegenlerin en küçüğüdür. Uranüs diğer bir buzul gezegendir ve Neptün’den oldukça büyüktür.
+            Neptün 1846 yılına kadar bilinmiyordu. Matematiksel tahminlerin yardımıyla konumu tam olarak belirlenmiştir. Galileo çizimlerinde bir yıldızın varlığını tahmin etmiş, ancak aslında bunun bir gezegen olduğunu o zamanların kısıtlı imkanları nedeniyle anlayamamıştı.
+            Neptün, Dünya’ya olan uzaklığı nedeniyle çıplak gözle görülememektedir.
+            Gezegenin güneşin etrafındaki bir turu 165 Dünya yılına eşittir. Yani dünyadaki 165 yıl Neptün'de 1 yıl kadardır.
+            Neptün'ün manyetik alanı, Dünya'nınkinden 27 kat daha güçlüdür.
+            Neptün'ün karakteristik rengi, gezegendeki bol Metan'ın varlığı nedeniyle mavidir. Uranüs ise yeşilimsi mavidir.
+            Ayrıca Neptün’ün resmi olarak teyit edilmiş 13 uydusu bulunmaktadır. 1 adet de onaylanmamış uydusu vardır.
+            Mavi gezegenin en büyük ayı olan Triton, Neptün'ün diğer uydularının tersine dönmektedir. Güneş sisteminde, retrograd yörüngeye sahip tek büyük uydudur.
+            Triton'un, birkaç milyar yıl sonra gezegenin yerçekimi kuvveti sayesinde parçalanacağı ve sonuç olarak bir halkanın oluşacağı tahmin edilmektedir.
+            Neptün bir gaz devi olduğu için, bir uzay aracının gezegene iniş yapması imkansızdır. Çünkü katı bir yüzeye sahip değildir.
+            Neptün, çap bakımından dördüncü en büyük gezegendir ve kütle bakımından üçüncü en büyük gezegendir.
+            Neptün, mavimsi renginden dolayı bir Roma tanrısının adını almıştır.
+            Neptün, ilk olarak, bilim adamı Jean Joseph Le Verrier tarafından 1946 yılında keşfedilmiştir.
+            Mavi gezegen Jüpiter'in ardından güneş sisteminde ikinci en büyük çekim kuvvetine sahiptir.
+            Neptün’de bir günün uzunluğu 16 saattir.
+            Neptün Dünya’dan yaklaşık 60 kat daha büyük bir gezegendir.
+            Neptün’ün ortalama yüzey sıcaklığı eksi 214 santigrat derecedir.
+            Neptün'ün yerçekimi kuvveti, Dünya'nınkinden sadece yüzde 17 daha oranda daha fazladır. Böylece, Neptün, güneş sisteminde Dünya benzeri yerçekimi olan tek gezegendir.
+            Neptün, Güneş Sistemimizde en soğuk gezegen olma kredisine de sahiptir. Gezegendeki sıcaklık, eksi 221 santigrat dereceye kadar düşebilir.
+        </item>
+        <item>
+            Plüton’da bir gün 153 saat sürmektedir. Gezegen doğudan batıya doğru dönüyor.
+            NASA’nın Pluton'a yolladığı New Horizons uzay aracı Dünyadan fırlatılan en hızlı uzay aracıydı (saniyede 16.26 kilometre) New Horizons 2015’te Plüton’un yanından geçtiğinde Plüton hakkındaki tüm düşüncelerimiz değişti. Issız, donuk bir kaya parçasından aktif bir gezegene dönüştüğüne şahit olduk.
+            Plüton’un en büyük uydusu Charon'dur. Plüton çevresinde 153 saatte dönüşünü tamamlamaktadır.
+            Plüton Güneş’e Dünya’dan 40 kat daha uzakta olduğundan Güneş ışığının Plüton’a ulaşması 5.5 saat sürmektedir. Atmosferi Yüzde 90 Azot, yüzde 10’u diğer moleküller metan, karbon monoksil'dir.
+            2006’da Uluslararası Astronomi Birliği, Plüton’u gezegenlikten çıkarmıştı. Gezegen olmanın kriterlerinden biri yörüngesinin çevresinin boş olmasıydı. Plüton’un yörüngesi Neptün’ün yörüngesini kestiği için bu gerekliliği karşılamıyordu. 2019’daki oylamada konu hakkında uzun tartışmalarda Neptün’den sonra gelen bölgede Güneş’e olan uzaklık çok fazla olduğu için açık bir yörünge oluşturmanın zaten mümkün olamayacağının altını çizildi. Tartışmalar sonrası oylamaya geçildi. 30 bilim insanı Plüton’u cüce gezegen olarak tutmak isterken 130 bilim insanı tekrar gezegen olarak kabul edilmesi yönünde oy kullandı ve Plüton yeniden gezegen olarak kabul edildi.
+            Cüce gezegenin en detaylı haritası 2002 – 2003 arasında Hubble Uzay Teleskobu ile çıkartıldı. Bu, NASA için yeterli değildi. Bu yüzden Plüton’a bir uzay sondası gönderildi.
+            New Horizons adı verilen bu görev 19 Ocak 2006’da başladı. Dokuz yıl boyunca uzayda yol aldı ve Temmuz 2015’te Plüton'un 12.500 kilometre yakınından geçti ve gezegende ilginç bir jeolojik yapının var olduğu görüldü. New Horizons ekibi gelen verileri ayrıntıyla analiz ettikten sonra yerkabuğunun altında bir okyanus olabileceğini iddia etti. Bu aynı zamanda, Güneş Sistemi’nde suyun nasıl var olduğunu da açıklayan bir teori.
+            New Horizons’dan edinilen bilgilerden sonra bilim insanları Plüton ile daha fazla ilgilenmeye başladılar. NASA’ya çok yakında bu konuda bir yardımcı gelebilir. ÇÜnkü Global Aerospace Corporation (GAC) tarafından üretilmesi planlanan Pluto Hubble cüce gezegeni araştırmak için önemli bir araç olacak. Bu uzay görevinin hedefi Plüton’un yüzeyine şişirilebilir bir balonla bir uzay aracı indirmek. Burada tek problem, Plüton’un atmosferinin son derece ince olması. Plütonun yerçekimi de dünya’nın yüzde altısı kadar.
+            Uzay aracı Plüton’a geldiğinde hızı çok yüksek olacak ve epey yavaşlatılması gerekiyor. Minicik bir cüce gezegenin yüzeyine bir araç indirmek imkansız mı bilinmez ama ciddi bir çalışma istediği açık. Plüton’a hareket edecek uzay aracı Pluto Hubble henüz tasarım aşamasında.
+        </item>
     </string-array>
 </resources>
