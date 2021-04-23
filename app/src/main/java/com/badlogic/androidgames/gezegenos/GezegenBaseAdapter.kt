@@ -47,7 +47,7 @@ class GezegenBaseAdapter(context: Context, tumGezBilgileri:ArrayList<Gezegen>) :
         }
 
         viewHolder.gezAdi.setText(tumGezegenler.get(position).gezAdi)
-        viewHolder.gezAciklama.setText(tumGezegenler.get(position).gezAciklama)
+        viewHolder.gezAciklama.setText(tumGezegenler.get(position).gezBaslik)
         viewHolder.gezImg.setImageResource(tumGezegenler.get(position).gezImg)
 
         return tek_satir_view

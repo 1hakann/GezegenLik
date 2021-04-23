@@ -12,7 +12,19 @@
         <item>Plüton</item>
     </string-array>
     
-    <string-array name="Aciklamalar">
+    <string-array name="Baslik">
+        <item>En Küçük Gezegen Olmak Nasıl Bir His?</item>
+        <item>Nasıl Daha Sıcak Olabilir? </item>
+        <item>Ve Bizim Gezegenimiz</item>
+        <item>Dinmeyen Toz Fırtınaları</item>
+        <item>Göçmen Gezegen Nedir? Nasıl Olunur?</item>
+        <item>Elmas Cenneti Diyarlar</item>
+        <item>Neden Ters İstikamette Dönüyor?</item>
+        <item>Yüzeyi Olmayan Gezegen</item>
+        <item>Gezegenliği Neden Tartışıldı?</item>
+    </string-array>
+
+    <string-array name="GezAciklama">
         <item>En Küçük Gezegen Olmak Nasıl Bir His?</item>
         <item>Nasıl Daha Sıcak Olabilir? </item>
         <item>Ve Bizim Gezegenimiz</item>
