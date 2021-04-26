@@ -21,6 +21,7 @@ class GezegenlerBilgi : AppCompatActivity() {
 
         listPlanets.setOnItemClickListener { parent, view, position, id ->
                 var myIntent = Intent(this@GezegenlerBilgi, DetayActivity::class.java)
+                myIntent.putExtra("GezegenBilgi",tumGezBilgileri)
                 myIntent.putExtra("Gönder",position)
                 startActivity(myIntent)
             }
