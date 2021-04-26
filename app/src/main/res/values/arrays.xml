@@ -26,7 +26,21 @@
 
     <string-array name="GezAciklama">
     <item>
-        \tMerkür 8 gezegen arasında Güneş\'e en yakın olan gezegendir.\n\n
+        Merkür 8 gezegen arasında Güneş\'e en yakın olan gezegendir. Saniyede 50 km\'lik inanılmaz bir hızla, uzayda seyreden en hızlı gezegendir.
+        Saniyede 50 km\'lik inanılmaz bir hızla, uzayda seyreden en hızlı gezegendir. Sahip olduğu bu hızıyla 88 günde Güneş\'in etrafında 1 tur atmış olur.
+        Böylece Güneş\'in etrafındaki turunu hızlı tamamlayan Merkür\'de 1 yıl 88 gündür. Dünya ile kıyaslandığında, Merkür kendi yörüngesi etrafındaki
+        dönüşünü 116 günde tamamlar. Bilinen hiç doğal uydusu olmayan gezegen adını Roma tanrısı Merkür\'den alır. Güneş sisteminde, Güneşe en yakın
+        gezegen olmasına rağmen en sıcak ikinci gezegendir. Ayrıca gezegenin güneşe bakan tarafı, 427 santigrat derece sıcaklıkta iken, bakmayan tarafı
+        ise sıfırın altında 173 santigrat derece de soğukluğa kadar düşmektedir. Bunun ana sebebi, gezegenin sıcaklığını düzenleyen bir atmosfere sahip
+        olmamasıdır. Merkür, Dünyamız üzerinden Güneş Sistemi\'nde çıplak gözle görülebilen beş gezegenden biridir. Yeri gelmişken diğer dördü ise
+        sırasıyla Venüs, Mars, Jüpiter ve Satürn\'dür.
+
+        NASA\'nın uzay aracı Messenger Merkür\'e 2015 yılında inmiştir. Merkür hakkında bilinen pek çok bilgi bu uzay aracı sayesinde edinilmiştir.
+        Merkür ilk kez İtalyan bilim insanı ve düşünür Galileo Galilei tarafından 1631\'de gözlemlemiştir. Merkür\'e uzay aracı gönderilmesi çok
+        zordur. Çünkü gezegen Güneş\'e aşırı yakındır. Uzay araçlarının bu gezegende hatta gezegene yaklaşırken dahi hayatta kalması oldukça zordur.
+        Bu sıcaklığa dayanıklılık ise maliyetleri çok fazla artırmaktadır. Marinen 10, yerçekimini kullanarak bu gezegene ulaşan ilk uzak aracı olmuştur.
+        Bu uzay aracı 3 Kasım 1973 tarihinde Cape Canaveral, Florida\'dan hareket etmiştir. Son olarak Merkür üzerinde hiçbir mevsim oluşmamaktadır
+        ve Merkür\'de Dünyamızda deneyimlenen yerçekiminin yüzde 38\'ine sahip bir atmosfer bulunmaktadır.
     </item>
     <item>
         \tGüneş\'e Merkür\'den daha uzak olmasına rağmen Venüs, güneş sisteminin en sıcak gezegenidir.
