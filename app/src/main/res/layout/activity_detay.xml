@@ -59,9 +59,12 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/tvGezOzellikleri"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/tvGezOzellikleri">
+                android:fontFamily="@font/autour_one"
+                android:textSize="18sp"
+                android:layout_margin="10dp">
 
             </TextView>
 

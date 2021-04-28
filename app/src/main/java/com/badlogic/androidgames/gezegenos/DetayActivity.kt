@@ -15,6 +15,8 @@ class DetayActivity : AppCompatActivity() {
         val position = intent.extras?.get("Gönder") as Int
         val gezegenBilgi = intent.extras?.get("GezegenBilgi") as ArrayList<Gezegen>
         myText.setText(gezegenBilgi.get(position).GezGenelOzell)
+        header.setImageResource(gezegenBilgi.get(position).gezIcerikRes)
+
 
 
         //Toast.makeText(this, "gezegen sayısı: "+gezegenBilgi.toString(), Toast.LENGTH_LONG).show()
