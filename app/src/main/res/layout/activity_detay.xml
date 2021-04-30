@@ -18,14 +18,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
-            app:contentScrim="?attr/colorPrimary"
+
             app:expandedTitleMarginStart="100dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
 
             <ImageView
                 android:id="@+id/header"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="250dp"
                 android:background="@drawable/mars"
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
@@ -59,9 +59,12 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/tvGezOzellikleri"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/tvGezOzellikleri">
+                android:fontFamily="@font/autour_one"
+                android:textSize="18sp"
+                android:layout_margin="10dp">
 
             </TextView>
 

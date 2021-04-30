@@ -12,6 +12,11 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
+    }
+
+    override fun onResume() {
+        super.onResume()
+
         var asagidanGelenButton = AnimationUtils.loadAnimation(this, R.anim.fromdowntoupbutton)
         var donenImage = AnimationUtils.loadAnimation(this, R.anim.rotateimage)
         var yukaridanGelenButton = AnimationUtils.loadAnimation(this, R.anim.fromuptodownbutton)
@@ -39,6 +44,5 @@ class SplashActivity : AppCompatActivity() {
             }.start()
 
         }
-
     }
 }
