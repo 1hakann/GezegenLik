@@ -2,6 +2,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="GuessTheWord-Starter/app/src/main/res/layout/game_fragment.xml" value="0.23641304347826086" />
+        <entry key="GuessTheWord-Starter/app/src/main/res/layout/main_activity.xml" value="0.23641304347826086" />
+        <entry key="GuessTheWord-Starter/app/src/main/res/layout/score_fragment.xml" value="0.23641304347826086" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/game_fragment.xml" value="0.26458333333333334" />
         <entry key="app/src/main/res/layout/main_activity.xml" value="0.23324275362318841" />
